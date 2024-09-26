@@ -1,0 +1,21 @@
+:root {
+    /* backgrounds */
+    --prim: #262336;
+    --f1: #322f40;
+    --f2: #1b1a22;
+    --grad-1: linear-gradient(
+        #fca56d,
+        #e0895e
+    );
+    --info-grad: linear-gradient(
+        #726d8d,
+        #585566
+    );
+    /* text colors */
+    --price-text: #cecbea;
+    --price-mo: #e0895e;
+}
+
+span {
+    text-decoration: underline;
+}
