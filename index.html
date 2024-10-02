@@ -13,7 +13,7 @@
     <header class="header" id="header">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 d-flex text-uppercase justify-content-center justify-content-md-start">
+                <div class="col-lg-6 d-flex text-uppercase justify-content-start">
                     <p class="logo align-self-center fs-1">o<sup>2</sup></p>
                     <div class="top-div">
                         <h1 class="header" id="topHead">air<span id="topSpan">box</span></h1>
@@ -21,15 +21,27 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <nav>
+                    <nav class="dropdown-menu navbar navbar-expand-lg">
+                        <button class="navbar-toggler"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#topNavbar"
+                        aria-controls="topNavbar"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
+                        >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="topNavbar">
                         <ul class="nav justify-content-end text-uppercase"> 
-                            <li class="nav-item"><a href="#" class="nav-link">home</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">web hosting</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">reseller hosting</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">services</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">blog</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link">contacts</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link navbar-link">home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link navbar-link">web hosting</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link navbar-link">reseller hosting</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link navbar-link">services</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link navbar-link">blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link navbar-link">contacts</a></li>
                         </ul>
+                    </div>
                     </nav>
                 </div>
             </div>
